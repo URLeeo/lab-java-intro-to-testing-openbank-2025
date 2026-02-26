@@ -7,7 +7,7 @@ public class KeywordTest {
 
     @Test
     void returnsTrueIfTextContainsAJavaKeywordWord() {
-        assertTrue(Keywords.containsJavaKeyword("It may brake your bone"));
+        assertTrue(Keywords.containsJavaKeyword("It may break your bone"));
         assertTrue(Keywords.containsJavaKeyword("I will return back from vacation next month."));
         assertTrue(Keywords.containsJavaKeyword("null is an empty thing"));
     }
